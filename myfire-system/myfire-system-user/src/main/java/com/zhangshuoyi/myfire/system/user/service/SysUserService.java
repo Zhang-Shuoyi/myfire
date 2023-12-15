@@ -1,5 +1,6 @@
 package com.zhangshuoyi.myfire.system.user.service;
 
+import com.zhangshuoyi.myfire.system.api.pojo.SysUserRequest;
 import com.zhangshuoyi.myfire.system.user.domain.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -17,31 +18,31 @@ public interface SysUserService extends IService<SysUser> {
      /**
       * 新增
       */
-     void add(SysUser request);
+     void add(SysUserRequest request);
 
      /**
       * 删除
       */
-     void del(SysUser request);
+     void del(SysUserRequest request);
 
      /**
       * 编辑
       */
-     void edit(SysUser request);
+     void edit(SysUserRequest request);
 
      /**
       * 详情
       */
-     SysUser detail(SysUser request);
+     SysUser detail(SysUserRequest request);
 
      /**
       * 分页
       */
-     Page<SysUser> findPage(SysUser request);
+     Page<SysUser> findPage(SysUserRequest request);
 
      /**
       * 笔数
       */
-     Long queryCount(SysUser request);
+     Long queryCount(SysUserRequest request);
 
 }

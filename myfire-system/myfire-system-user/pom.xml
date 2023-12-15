@@ -16,9 +16,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.lusifer</groupId>
+            <groupId>com.zhangshuoyi</groupId>
             <artifactId>myfire-system-api</artifactId>
-            <version>${myfire.version}</version>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

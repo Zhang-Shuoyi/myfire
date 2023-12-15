@@ -1,6 +1,7 @@
 package com.zhangshuoyi.myfire.system.user.service.impl;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.zhangshuoyi.myfire.system.api.pojo.SysUserRequest;
 import com.zhangshuoyi.myfire.system.user.domain.SysUser;
 import com.zhangshuoyi.myfire.system.user.mapper.SysUserMapper;
 import com.zhangshuoyi.myfire.system.user.service.SysUserService;
@@ -19,32 +20,32 @@ import org.springframework.stereotype.Service;
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {
 
     @Override
-    public void add(SysUser request) {
+    public void add(SysUserRequest request) {
 
     }
 
     @Override
-    public void del(SysUser request) {
+    public void del(SysUserRequest request) {
 
     }
 
     @Override
-    public void edit(SysUser request) {
+    public void edit(SysUserRequest request) {
 
     }
 
     @Override
-    public SysUser detail(SysUser request) {
+    public SysUser detail(SysUserRequest request) {
         return null;
     }
 
     @Override
-    public Page<SysUser> findPage(SysUser request) {
+    public Page<SysUser> findPage(SysUserRequest request) {
         return null;
     }
 
     @Override
-    public Long queryCount(SysUser request) {
+    public Long queryCount(SysUserRequest request) {
         return null;
     }
 }

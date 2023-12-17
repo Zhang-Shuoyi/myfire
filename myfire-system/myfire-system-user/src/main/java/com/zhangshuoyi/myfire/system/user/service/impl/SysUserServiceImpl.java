@@ -21,7 +21,7 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 
     @Override
     public void add(SysUserRequest request) {
-        System.out.println();
+        System.out.println("hello world");
     }
 
     @Override

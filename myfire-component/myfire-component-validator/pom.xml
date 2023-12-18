@@ -5,18 +5,12 @@
 
     <parent>
         <groupId>com.zhangshuoyi</groupId>
-        <artifactId>myfire</artifactId>
+        <artifactId>myfire-component</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>myfire-component</artifactId>
-    <packaging>pom</packaging>
-    <description>通用功能组件模块</description>
-
-    <modules>
-        <module>myfire-component-db</module>
-        <module>myfire-component-validator</module>
-    </modules>
+    <artifactId>myfire-component-validator</artifactId>
+    <packaging>jar</packaging>
 
 </project>

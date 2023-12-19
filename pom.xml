@@ -21,6 +21,8 @@
         <spring-boot.version>2.6.13</spring-boot.version>
         <mybatis-plus.version>3.5.4.1</mybatis-plus.version>
         <hutool.version>5.8.23</hutool.version>
+        <swagger.version>3.0.0</swagger.version>
+        <knife4j.version>3.0.3</knife4j.version>
         <myfire.version>1.0.0-SNAPSHOT</myfire.version>
     </properties>
 

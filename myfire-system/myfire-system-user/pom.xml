@@ -30,5 +30,10 @@
             <artifactId>myfire-component-validator</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.zhangshuoyi</groupId>
+            <artifactId>myfire-component-validator</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

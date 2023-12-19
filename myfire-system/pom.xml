@@ -22,13 +22,13 @@
     <dependencies>
         <dependency>
             <groupId>com.zhangshuoyi</groupId>
-            <artifactId>myfire-component</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <artifactId>myfire-component-db</artifactId>
+            <version>${myfire.version}</version>
         </dependency>
         <dependency>
             <groupId>com.zhangshuoyi</groupId>
             <artifactId>myfire-rule</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>${myfire.version}</version>
         </dependency>
     </dependencies>
 </project>
